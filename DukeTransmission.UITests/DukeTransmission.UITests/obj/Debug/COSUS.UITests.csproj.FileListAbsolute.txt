@@ -1,0 +1,12 @@
+C:\Projects\COSUS.UITests\COSUS.UITests\bin\Debug\COSUS.UITests.dll
+C:\Projects\COSUS.UITests\COSUS.UITests\bin\Debug\COSUS.UITests.pdb
+C:\Projects\COSUS.UITests\COSUS.UITests\bin\Debug\nunit.framework.dll
+C:\Projects\COSUS.UITests\COSUS.UITests\bin\Debug\WebDriver.dll
+C:\Projects\COSUS.UITests\COSUS.UITests\bin\Debug\WebDriver.Support.dll
+C:\Projects\COSUS.UITests\COSUS.UITests\bin\Debug\nunit.framework.xml
+C:\Projects\COSUS.UITests\COSUS.UITests\bin\Debug\WebDriver.xml
+C:\Projects\COSUS.UITests\COSUS.UITests\bin\Debug\WebDriver.Support.xml
+C:\Projects\COSUS.UITests\COSUS.UITests\obj\Debug\COSUS.UITests.dll
+C:\Projects\COSUS.UITests\COSUS.UITests\obj\Debug\COSUS.UITests.pdb
+C:\Projects\COSUS.UITests\COSUS.UITests\bin\Debug\COSUS.UITests.dll.config
+C:\Projects\COSUS.UITests\COSUS.UITests\obj\Debug\COSUS.UITests.csprojResolveAssemblyReference.cache

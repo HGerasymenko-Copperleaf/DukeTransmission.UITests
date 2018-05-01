@@ -1,0 +1,37 @@
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\bin\Debug\DukeTransmission.UITests.dll.config
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\bin\Debug\DukeTransmission.UITests.dll
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\bin\Debug\DukeTransmission.UITests.pdb
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\bin\Debug\nunit.framework.dll
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\bin\Debug\WebDriver.dll
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\bin\Debug\WebDriver.Support.dll
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\bin\Debug\nunit.framework.xml
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\bin\Debug\WebDriver.xml
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\bin\Debug\WebDriver.Support.xml
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\obj\Debug\DukeTransmission.UITests.csprojResolveAssemblyReference.cache
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\obj\Debug\DukeTransmission.UITests.dll
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\obj\Debug\DukeTransmission.UITests.pdb
+D:\Work\DukeTransmission.UITests\Twitter.UITests\Twitter.UITests\bin\Debug\DukeTransmission.UITests.dll.config
+D:\Work\DukeTransmission.UITests\Twitter.UITests\Twitter.UITests\bin\Debug\DukeTransmission.UITests.dll
+D:\Work\DukeTransmission.UITests\Twitter.UITests\Twitter.UITests\bin\Debug\DukeTransmission.UITests.pdb
+D:\Work\DukeTransmission.UITests\Twitter.UITests\Twitter.UITests\bin\Debug\nunit.framework.dll
+D:\Work\DukeTransmission.UITests\Twitter.UITests\Twitter.UITests\bin\Debug\WebDriver.dll
+D:\Work\DukeTransmission.UITests\Twitter.UITests\Twitter.UITests\bin\Debug\WebDriver.Support.dll
+D:\Work\DukeTransmission.UITests\Twitter.UITests\Twitter.UITests\bin\Debug\nunit.framework.xml
+D:\Work\DukeTransmission.UITests\Twitter.UITests\Twitter.UITests\bin\Debug\WebDriver.xml
+D:\Work\DukeTransmission.UITests\Twitter.UITests\Twitter.UITests\bin\Debug\WebDriver.Support.xml
+D:\Work\DukeTransmission.UITests\Twitter.UITests\Twitter.UITests\obj\Debug\DukeTransmission.UITests.csprojResolveAssemblyReference.cache
+D:\Work\DukeTransmission.UITests\Twitter.UITests\Twitter.UITests\obj\Debug\DukeTransmission.UITests.dll
+D:\Work\DukeTransmission.UITests\Twitter.UITests\Twitter.UITests\obj\Debug\DukeTransmission.UITests.pdb
+D:\Work\DukeTransmission.UITests\DukeTransmission.UITests\DukeTransmission.UITests\bin\Debug\DukeTransmission.UITests.dll.config
+D:\Work\DukeTransmission.UITests\DukeTransmission.UITests\DukeTransmission.UITests\bin\Debug\DukeTransmission.UITests.dll
+D:\Work\DukeTransmission.UITests\DukeTransmission.UITests\DukeTransmission.UITests\bin\Debug\DukeTransmission.UITests.pdb
+D:\Work\DukeTransmission.UITests\DukeTransmission.UITests\DukeTransmission.UITests\bin\Debug\nunit.framework.dll
+D:\Work\DukeTransmission.UITests\DukeTransmission.UITests\DukeTransmission.UITests\bin\Debug\WebDriver.dll
+D:\Work\DukeTransmission.UITests\DukeTransmission.UITests\DukeTransmission.UITests\bin\Debug\WebDriver.Support.dll
+D:\Work\DukeTransmission.UITests\DukeTransmission.UITests\DukeTransmission.UITests\bin\Debug\nunit.framework.xml
+D:\Work\DukeTransmission.UITests\DukeTransmission.UITests\DukeTransmission.UITests\bin\Debug\WebDriver.xml
+D:\Work\DukeTransmission.UITests\DukeTransmission.UITests\DukeTransmission.UITests\bin\Debug\WebDriver.Support.xml
+D:\Work\DukeTransmission.UITests\DukeTransmission.UITests\DukeTransmission.UITests\obj\Debug\DukeTransmission.UITests.csprojResolveAssemblyReference.cache
+D:\Work\DukeTransmission.UITests\DukeTransmission.UITests\DukeTransmission.UITests\obj\Debug\DukeTransmission.UITests.dll
+D:\Work\DukeTransmission.UITests\DukeTransmission.UITests\DukeTransmission.UITests\obj\Debug\DukeTransmission.UITests.pdb
+D:\Work\DukeTransmission.UITests\DukeTransmission.UITests\DukeTransmission.UITests\bin\Debug\nunit.framework.pdb

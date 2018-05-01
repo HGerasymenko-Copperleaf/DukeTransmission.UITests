@@ -1,0 +1,36 @@
+D:\Work\Tweeter.UITests\COSUS.UITests\COSUS.UITests\bin\Debug\COSUS.UITests.dll.config
+D:\Work\Tweeter.UITests\COSUS.UITests\COSUS.UITests\bin\Debug\COSUS.UITests.dll
+D:\Work\Tweeter.UITests\COSUS.UITests\COSUS.UITests\bin\Debug\COSUS.UITests.pdb
+D:\Work\Tweeter.UITests\COSUS.UITests\COSUS.UITests\bin\Debug\nunit.framework.dll
+D:\Work\Tweeter.UITests\COSUS.UITests\COSUS.UITests\bin\Debug\WebDriver.dll
+D:\Work\Tweeter.UITests\COSUS.UITests\COSUS.UITests\bin\Debug\WebDriver.Support.dll
+D:\Work\Tweeter.UITests\COSUS.UITests\COSUS.UITests\bin\Debug\nunit.framework.xml
+D:\Work\Tweeter.UITests\COSUS.UITests\COSUS.UITests\bin\Debug\WebDriver.xml
+D:\Work\Tweeter.UITests\COSUS.UITests\COSUS.UITests\bin\Debug\WebDriver.Support.xml
+D:\Work\Tweeter.UITests\COSUS.UITests\COSUS.UITests\obj\Debug\Twitter.UITests.csprojResolveAssemblyReference.cache
+D:\Work\Tweeter.UITests\COSUS.UITests\COSUS.UITests\obj\Debug\COSUS.UITests.dll
+D:\Work\Tweeter.UITests\COSUS.UITests\COSUS.UITests\obj\Debug\COSUS.UITests.pdb
+D:\Work\Twitter.UITests\Twitter.UITests\Twitter.UITests\bin\Debug\Twitter.UITests.dll.config
+D:\Work\Twitter.UITests\Twitter.UITests\Twitter.UITests\bin\Debug\Twitter.UITests.dll
+D:\Work\Twitter.UITests\Twitter.UITests\Twitter.UITests\bin\Debug\Twitter.UITests.pdb
+D:\Work\Twitter.UITests\Twitter.UITests\Twitter.UITests\bin\Debug\nunit.framework.dll
+D:\Work\Twitter.UITests\Twitter.UITests\Twitter.UITests\bin\Debug\WebDriver.dll
+D:\Work\Twitter.UITests\Twitter.UITests\Twitter.UITests\bin\Debug\WebDriver.Support.dll
+D:\Work\Twitter.UITests\Twitter.UITests\Twitter.UITests\bin\Debug\nunit.framework.xml
+D:\Work\Twitter.UITests\Twitter.UITests\Twitter.UITests\bin\Debug\WebDriver.xml
+D:\Work\Twitter.UITests\Twitter.UITests\Twitter.UITests\bin\Debug\WebDriver.Support.xml
+D:\Work\Twitter.UITests\Twitter.UITests\Twitter.UITests\obj\Debug\Twitter.UITests.dll
+D:\Work\Twitter.UITests\Twitter.UITests\Twitter.UITests\obj\Debug\Twitter.UITests.pdb
+D:\Work\Twitter.UITests\Twitter.UITests\Twitter.UITests\obj\Debug\Twitter.UITests.csprojResolveAssemblyReference.cache
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\bin\Debug\Twitter.UITests.dll.config
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\bin\Debug\Twitter.UITests.dll
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\bin\Debug\Twitter.UITests.pdb
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\bin\Debug\nunit.framework.dll
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\bin\Debug\WebDriver.dll
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\bin\Debug\WebDriver.Support.dll
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\bin\Debug\nunit.framework.xml
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\bin\Debug\WebDriver.xml
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\bin\Debug\WebDriver.Support.xml
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\obj\Debug\Twitter.UITests.csprojResolveAssemblyReference.cache
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\obj\Debug\Twitter.UITests.dll
+D:\Work\Twitter.UITests - Copy\Twitter.UITests\Twitter.UITests\obj\Debug\Twitter.UITests.pdb
