@@ -9,6 +9,7 @@ using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.IE;
+using OpenQA.Selenium.Remote;
 
 namespace DukeTransmission.UITests.Bases
 {
@@ -17,8 +18,8 @@ namespace DukeTransmission.UITests.Bases
     /// </summary>
     public abstract class TestBase
     {
-        protected readonly IWebDriver _driver;
-        protected static readonly string _baseWebsiteUrl = new Uri(ConfigurationManager.AppSettings["baseWebsiteUrl"]).ToString();
+        protected readonly RemoteWebDriver _driver;
+        protected static readonly string _baseWebsiteUrl = new Uri(ConfigurationManager.AppSettings["copperleafWebsiteUrl"]).ToString();
         private readonly string _initialWindowHandle;
         private static readonly string AssemblyLocalPath = SetupAssemblyPath();
         private static readonly string OutputFolderPath = AssemblyLocalPath + @"\..\..\..\Output\Screenshots\";
@@ -26,8 +27,8 @@ namespace DukeTransmission.UITests.Bases
         protected TestBase()
         {
             Directory.CreateDirectory(OutputFolderPath);
-            //_driver = CreateChromeDriver();
-            _driver = CreateIEDriver();
+            _driver = CreateChromeDriver();
+            //_driver = CreateIEDriver();
             _initialWindowHandle = _driver.CurrentWindowHandle;
         }
 
@@ -60,11 +61,11 @@ namespace DukeTransmission.UITests.Bases
             _driver.Quit();
         }
 
-        private static IWebDriver CreateChromeDriver()
+        private static RemoteWebDriver CreateChromeDriver()
         {
             //get the path to chrome.exe file
             var pathToChromeExecutable = new FileInfo(Path.Combine(AssemblyLocalPath, 
-                @"..\..\..\packages\Selenium.WebDriver.ChromeDriver.2.33.0\driver\win32")).FullName;
+                @"..\..\..\packages\Selenium.WebDriver.ChromeDriver.2.38.0.1\driver\win32")).FullName;
 
             //set an option to disable 'Save Password' prompt in the browser
             var options = new ChromeOptions();
@@ -80,7 +81,7 @@ namespace DukeTransmission.UITests.Bases
             return driver;
         }
 
-        private static IWebDriver CreateIEDriver()
+        private static RemoteWebDriver CreateIEDriver()
         {
             //var pathToIEExecutable = @"C:\IEDriverServer_Win32_3.11.1\";
 
@@ -93,7 +94,7 @@ namespace DukeTransmission.UITests.Bases
                 IntroduceInstabilityByIgnoringProtectedModeSettings = true
             };
             var driver = new InternetExplorerDriver(pathToIEExecutable, options);
-            driver.Manage().Window.Size = new Size(1800, 900);
+            driver.Manage().Window.Maximize();
             return driver;
         }
 
@@ -116,11 +117,9 @@ namespace DukeTransmission.UITests.Bases
             //need to wait until the screenshot is taken
             Thread.Sleep(TimeSpan.FromSeconds(0.5));
 
-            screenshot.SaveAsFile(fullPath, ScreenshotImageFormat.Png);
-            
             //need to wait until the screenshot is saved as a file
+            screenshot.SaveAsFile(fullPath, ScreenshotImageFormat.Png);
             Thread.Sleep(TimeSpan.FromSeconds(0.5));
-            //TestContext.Out.WriteLine(fileName);
         }
     }
 }

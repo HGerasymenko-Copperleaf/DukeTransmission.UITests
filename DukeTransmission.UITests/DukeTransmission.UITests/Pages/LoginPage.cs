@@ -1,16 +1,20 @@
-﻿using DukeTransmission.UITests.Bases;
+﻿using System;
+using System.Threading;
+using DukeTransmission.UITests.Bases;
+using DukeTransmission.UITests.ExtensionMethods;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Support.PageObjects;
 
 namespace DukeTransmission.UITests.Pages
 {
     public class LoginPage : PageBase
     {
-        private const string PartialUrl = "login";
+        private const string PartialUrl = "Login/UserLogin.aspx?";
 
-        public LoginPage(IWebDriver driver) : base(driver){}
+        public LoginPage(RemoteWebDriver driver) : base(driver){}
 
-        public static LoginPage NavigateToThisPageViaUrl(IWebDriver driver)
+        public static LoginPage NavigateToThisPageViaUrl(RemoteWebDriver driver)
         {
             driver.Navigate().GoToUrl(_baseWebsiteUrl + PartialUrl);
             return new LoginPage(driver);
@@ -20,21 +24,27 @@ namespace DukeTransmission.UITests.Pages
         {
             _loginField.Clear();
             _loginField.SendKeys(username);
-            _passwordField.Clear();
-            _passwordField.SendKeys(password);
+            var passwordField = _driver.FindElementWait(By.Id("password"));
+            passwordField.Clear();
+            passwordField.SendKeys(password);
             _loginButton.Click();
             return new HomePage(_driver);
         }
 
+        public IWebElement _loginField => _driver.FindElementById("username");
+        public IWebElement _passwordField => _driver.FindElementById("password");
+        public IWebElement _loginButton => _driver.FindElementById("btnSubmit");
+
+
 #pragma warning disable 649
-        [FindsBy(How = How.XPath, Using = "//input[@class='js-username-field email-input js-initial-focus']")]
-        private IWebElement _loginField;
+        /*  [FindsBy(How = How.Id, Using = "username")]
+          private IWebElement _loginField;
 
-        [FindsBy(How = How.XPath, Using = "//input[@class='js-password-field']")]
-        private IWebElement _passwordField;
+          [FindsBy(How = How.Id, Using = "password")]
+          private IWebElement _passwordField;
 
-        [FindsBy(How = How.XPath, Using = "//button[text()='Log in']")]
-        private IWebElement _loginButton;
+          [FindsBy(How = How.Id, Using = "btnSubmit")]
+          private IWebElement _loginButton; */
 #pragma warning restore 649
     }
 }
