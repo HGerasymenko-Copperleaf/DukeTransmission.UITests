@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Configuration;
-using OpenQA.Selenium;
 using OpenQA.Selenium.Remote;
-using OpenQA.Selenium.Support.PageObjects;
 using OpenQA.Selenium.Support.UI;
+using PageFactory = SeleniumExtras.PageObjects.PageFactory;
 
 namespace DukeTransmission.UITests.Bases
 {
@@ -15,12 +14,12 @@ namespace DukeTransmission.UITests.Bases
     {
         protected readonly RemoteWebDriver _driver;
         protected readonly WebDriverWait _wait;
-        protected static readonly Uri _baseWebsiteUrl = new Uri(ConfigurationManager.AppSettings["copperleafWebsiteUrl"]);
+        protected static readonly Uri _baseWebsiteUrl = new Uri(ConfigurationManager.AppSettings["baseWebsiteUrl"]);
 
         protected PageBase(RemoteWebDriver driver)
         {
             _driver = driver;
-            //PageFactory.InitElements(_driver, this);
+            PageFactory.InitElements(_driver, this);
             _wait = new WebDriverWait(driver, TimeSpan.FromSeconds(5));
         }
     }

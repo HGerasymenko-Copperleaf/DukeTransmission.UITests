@@ -19,7 +19,7 @@ namespace DukeTransmission.UITests.Bases
     public abstract class TestBase
     {
         protected readonly RemoteWebDriver _driver;
-        protected static readonly string _baseWebsiteUrl = new Uri(ConfigurationManager.AppSettings["copperleafWebsiteUrl"]).ToString();
+        protected static readonly string _baseWebsiteUrl = new Uri(ConfigurationManager.AppSettings["baseWebsiteUrl"]).ToString();
         private readonly string _initialWindowHandle;
         private static readonly string AssemblyLocalPath = SetupAssemblyPath();
         private static readonly string OutputFolderPath = AssemblyLocalPath + @"\..\..\..\Output\Screenshots\";
@@ -28,7 +28,6 @@ namespace DukeTransmission.UITests.Bases
         {
             Directory.CreateDirectory(OutputFolderPath);
             _driver = CreateChromeDriver();
-            //_driver = CreateIEDriver();
             _initialWindowHandle = _driver.CurrentWindowHandle;
         }
 

@@ -1,7 +1,6 @@
 ﻿using DukeTransmission.UITests.Bases;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Remote;
-using SeleniumExtras.PageObjects;
 
 namespace DukeTransmission.UITests.Pages
 {

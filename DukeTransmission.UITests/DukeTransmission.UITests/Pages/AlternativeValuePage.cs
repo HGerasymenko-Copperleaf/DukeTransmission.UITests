@@ -35,22 +35,5 @@ namespace DukeTransmission.UITests.Pages
             return new QuestionnairesTab(_driver);
         }
 
-
-#pragma warning disable 649
-        /*[FindsBy(How = How.XPath, Using = "//div[@class='cl-container cl-overflow-hidden']//span[text()='Cyber Security Risk']")]
-        private IWebElement _cyberSecurityRisk_vm;
-
-        [FindsBy(How = How.XPath, Using = "//div[@class='cl-container cl-overflow-hidden']//span[text()='Financial Risk']")]
-        private IWebElement _financialRisk_vm;
-
-        [FindsBy(How = How.Id, Using = "valueSummaryTab")]
-        private IWebElement _valueSummaryTab;
-
-        [FindsBy(How = How.Id, Using = "valueMeasureDetailsTab")]
-        private IWebElement _valueMeasureDetailsTab;*/
-#pragma warning restore 649
-
-
-        
-    }
+   }
 }

@@ -8,7 +8,7 @@ using OpenQA.Selenium.Support.UI;
 
 namespace DukeTransmission.UITests.Pages.Components.AlternativeValuePage
 {
-    public partial class QuestionnairesTab : PageBase
+    public class QuestionnairesTab : PageBase
     {
         public QuestionnairesTab(RemoteWebDriver driver) : base(driver)
         {

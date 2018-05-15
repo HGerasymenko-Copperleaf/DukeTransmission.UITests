@@ -6,7 +6,7 @@ using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.PageObjects;
 
-namespace DukeTransmission.UITests.Pages.Components
+namespace DukeTransmission.UITests.Pages.Components.AlternativeValuePage
 {
     public class AnswerQuestionnairesDialog : PageBase
     {
